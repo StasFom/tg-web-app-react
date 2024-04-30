@@ -17,16 +17,12 @@ function App() {
 
     return (
         <>
-            <div className="App">
-                <a href="https://ton.org/dev" target="_blank">
-                 <img src={twaLogo} className="logo" alt="TWA logo"/>
-                </a>
-            </div>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
+            <div className="body">
+                <h1>count is {count}</h1>
+                <button className="glow-on-hover" onClick={() => setCount((count) => count + 1)}>
                     <img src={twaLogo} className="logo" alt="TWA logo"/>
-                    count is {count}
                 </button>
+
             </div>
         </>
     );
