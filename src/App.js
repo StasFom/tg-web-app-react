@@ -18,11 +18,6 @@ function App() {
             <a href="https://ton.org/dev" target="_blank">
                 <img src={twaLogo} className="logo" alt="TWA logo"/>
             </a>
-            <Header/>
-            <Routes>
-                <Route index element={<ProductList/>}/>
-                <Route path={'form'} element={<Form/>}/>
-            </Routes>
         </div>
     );
 }
